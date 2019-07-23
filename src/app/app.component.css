@@ -1,0 +1,23 @@
+.check{
+	  margin-right: 40px;
+	  margin-top:50px;
+	  text-align:center;
+	font-size:20px;
+    //margin-top:20px;
+	border-radius:2px;
+	//background-color:#0d6b8a;
+	color:black;
+	width: 200px;
+	text-decoration:none;
+	
+}
+
+.container{
+	margin-top: 50px;
+	
+}
+
+.formargin{
+	
+	padding-top: 50px;
+}

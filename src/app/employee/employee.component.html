@@ -1,0 +1,57 @@
+  <!--  <form #form="ngForm"  (ngSubmit) = "onSubmit(form)" autocomplete="off">
+
+<div>
+
+<label>FirstName</label>
+
+        <input type="text" class="form-control" required [(ngModel)]="service.formData.firstname" ngControl="firstname" #firstname="ngModel">
+
+</div>
+<div >
+
+<label>LastName</label>
+
+       <input type="text" class="form-control" required [(ngModel)]="service.formData.lastname" ngControl="lastname" #lastname="ngModel"> 
+	  
+	 
+
+</div>
+<div class="form-group">
+
+<button type="submit" class="btn btn-lg btn-block">Submit</button>
+
+</div>
+
+</form> 
+
+-->
+
+
+ <html>
+<head>
+
+</head>
+<body>
+<div  class="divoutsideform">
+ <form #form="ngForm" (ngSubmit)="onSubmit(form)" novalidate >
+	<div  class="maindiv">
+		<div class="innerdiv">
+			<label class="empid">Emp ID</label>
+			<input type="text" class="form-control" name="id" ngModel required #id="ngModel">
+		</div>
+		<div class="innerdiv">
+			 <label class="firstname">FirstName</label>
+			 <input type="text" class="form-control" name="firstname" ngModel required #firstname="ngModel">
+		 </div>
+		 <div class="innerdiv">
+			 <label class="lastname">Lastname</label>
+			 <input type="text" class="form-control" name="lastname" ngModel required #lastname="ngModel">
+		 </div>
+		 <div class="innerdiv">
+		   <button class="btn btn-lg btn-block">Submit</button>
+		 </div>
+    </div>
+ </form>
+</div>
+</body>
+</html>
